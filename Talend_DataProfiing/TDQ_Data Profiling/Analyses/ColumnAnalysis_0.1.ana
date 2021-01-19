@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_WYy0oUAQEeuCFNe08e3zYg" name="ColumnAnalysis" creationDate="2020-12-16T21:34:13.088-0500" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/Covid_19_0.1.item#_gP6G6kAUEeuCFNe08e3zYg"/>
+    <taggedValue xmi:id="_WYy0okAQEeuCFNe08e3zYg" tag="Status" value="development"/>
+    <taggedValue xmi:id="_WYy0o0AQEeuCFNe08e3zYg" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_WYy0pEAQEeuCFNe08e3zYg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_WYy0pUAQEeuCFNe08e3zYg" tag="Description" value=""/>
+    <taggedValue xmi:id="_WYy0pkAQEeuCFNe08e3zYg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_gP6G4UAUEeuCFNe08e3zYg" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_gP6G4kAUEeuCFNe08e3zYg" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_gP6G40AUEeuCFNe08e3zYg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_gQadMEAUEeuCFNe08e3zYg" tag="Is Use Sample Data" value="false"/>
+    <context xmi:id="_WYy0p0AQEeuCFNe08e3zYg">
+      <connection href="../../metadata/connections/Covid_19_0.1.item#_MhjUoEAOEeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_uKCxZEASEeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_uKCxbEASEeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_uKCxaEASEeuCFNe08e3zYg"/>
+    </context>
+    <results xmi:id="_WYy0qEAQEeuCFNe08e3zYg">
+      <resultMetadata xmi:id="_WYy0qUAQEeuCFNe08e3zYg" executionDate="2020-12-16T22:04:07.430-0500" executionDuration="4117" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_gP6G5EAUEeuCFNe08e3zYg" count="2613" computed="true">
+        <parameters xmi:id="_gP6G5UAUEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_uKCxZEASEeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hw4KYUAUEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;aha_hospital_beds&quot; " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_hvqCYEAUEeuCFNe08e3zYg" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_hvqCYUAUEeuCFNe08e3zYg" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_hvqCYkAUEeuCFNe08e3zYg" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_hvqCY0AUEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_gP6G5kAUEeuCFNe08e3zYg" count="2613" nullCount="8" computed="true">
+        <parameters xmi:id="_gP6G50AUEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_uKCxZEASEeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hw4KY0AUEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;aha_hospital_beds&quot; WHERE &quot;county_name&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_hvseoEAUEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_hvseoUAUEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_hvseokAUEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_hvseo0AUEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_gP6G6EAUEeuCFNe08e3zYg" count="2613" nullCount="8" computed="true" distinctValueCount="1586">
+        <parameters xmi:id="_gP6G6UAUEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_uKCxZEASEeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hw4KZEAUEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM (SELECT DISTINCT &quot;county_name&quot; FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;aha_hospital_beds&quot; ) A" language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_hv22sEAUEeuCFNe08e3zYg" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_hv22sUAUEeuCFNe08e3zYg" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_hv22skAUEeuCFNe08e3zYg" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_hv22s0AUEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_gP6G7EAUEeuCFNe08e3zYg" count="2613" computed="true">
+        <parameters xmi:id="_gP6G7UAUEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_uKCxbEASEeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hw4KYkAUEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;aha_hospital_beds&quot; " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_hwFgMEAUEeuCFNe08e3zYg" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_hwFgMUAUEeuCFNe08e3zYg" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_hwFgMkAUEeuCFNe08e3zYg" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_hwFgM0AUEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_gP6G7kAUEeuCFNe08e3zYg" count="2613" nullCount="105" computed="true">
+        <parameters xmi:id="_gP6G70AUEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_uKCxbEASEeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hw4KZUAUEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;aha_hospital_beds&quot; WHERE &quot;total_hospital_beds&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_hwODEEAUEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_hwODEUAUEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_hwODEkAUEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_hwODE0AUEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:MeanIndicator" xmi:id="_gP6G8EAUEeuCFNe08e3zYg" count="2508" nullCount="105" computed="true" sumStr="925465">
+        <parameters xmi:id="_gP6G8UAUEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_uKCxbEASEeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Summary Statistics/Mean_0.1.definition#_ccI48RF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hw4KZkAUEeuCFNe08e3zYg" body="SELECT SUM(&quot;total_hospital_beds&quot;), COUNT(&quot;total_hospital_beds&quot;) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;aha_hospital_beds&quot; " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_hwX0EEAUEeuCFNe08e3zYg" name="Mean" label="Mean">
+          <taggedValue xmi:id="_hwX0EUAUEeuCFNe08e3zYg" tag="Description" value="computes the mean (average) of the records"/>
+          <taggedValue xmi:id="_hwX0EkAUEeuCFNe08e3zYg" tag="Purpose" value="evaluates the mean value of numerical records"/>
+          <sqlGenericExpression xmi:id="_hwX0E0AUEeuCFNe08e3zYg" body="SELECT SUM(&lt;%=__COLUMN_NAMES__%>), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+          <sqlGenericExpression xmi:id="_hwX0FEAUEeuCFNe08e3zYg" body="SELECT SUM(&lt;%=__COLUMN_NAMES__%>), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="MySQL"/>
+          <sqlGenericExpression xmi:id="_hwX0FUAUEeuCFNe08e3zYg" body="SELECT SUM(&lt;%=__COLUMN_NAMES__%>), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Oracle"/>
+          <sqlGenericExpression xmi:id="_hwX0FkAUEeuCFNe08e3zYg" body="SELECT SUM(&lt;%=__COLUMN_NAMES__%>), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="PostgreSQL"/>
+          <sqlGenericExpression xmi:id="_hwX0F0AUEeuCFNe08e3zYg" body="SELECT SUM(CAST (&lt;%=__COLUMN_NAMES__%> AS REAL)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="Teradata"/>
+          <sqlGenericExpression xmi:id="_hwX0GEAUEeuCFNe08e3zYg" body="SELECT SUM(double(&lt;%=__COLUMN_NAMES__%>)), COUNT(&lt;%=__COLUMN_NAMES__%>) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="DB2"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_gP6G8kAUEeuCFNe08e3zYg" count="2613" computed="true">
+        <parameters xmi:id="_gP6G80AUEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_uKCxaEASEeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hw4KYEAUEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;aha_hospital_beds&quot; " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_hwehwEAUEeuCFNe08e3zYg" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_hwehwUAUEeuCFNe08e3zYg" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_hwehwkAUEeuCFNe08e3zYg" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_hwehw0AUEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_gP6G9EAUEeuCFNe08e3zYg" count="2613" computed="true">
+        <parameters xmi:id="_gP6G9UAUEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_uKCxaEASEeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_hw4KZ0AUEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;aha_hospital_beds&quot; WHERE &quot;state_name&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_hwnrsEAUEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_hwnrsUAUEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_hwnrskAUEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_hwnrs0AUEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_WYy0qkAQEeuCFNe08e3zYg" dataFilter="_gQadMUAUEeuCFNe08e3zYg" analysisType="Multiple Column Analysis"/>
+    <contextType xmi:id="_gP6G4EAUEeuCFNe08e3zYg" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_gQadMUAUEeuCFNe08e3zYg" name="ColumnAnalysis">
+    <ranges xmi:id="_gQadMkAUEeuCFNe08e3zYg">
+      <expressions xmi:id="_gQadM0AUEeuCFNe08e3zYg">
+        <expression xsi:type="relational:TdExpression" xmi:id="_gQadNEAUEeuCFNe08e3zYg" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

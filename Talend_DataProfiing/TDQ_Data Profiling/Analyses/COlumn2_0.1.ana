@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_z-gw8EA_EeuCFNe08e3zYg" name="COlumn2" creationDate="2020-12-17T03:13:58.013-0500" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/Covid_19_0.1.item#_gP6G6kAUEeuCFNe08e3zYg"/>
+    <taggedValue xmi:id="_z-gw8UA_EeuCFNe08e3zYg" tag="Status" value="development"/>
+    <taggedValue xmi:id="_z-gw8kA_EeuCFNe08e3zYg" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_z-gw80A_EeuCFNe08e3zYg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_z-gw9EA_EeuCFNe08e3zYg" tag="Description" value=""/>
+    <taggedValue xmi:id="_z-gw9UA_EeuCFNe08e3zYg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_uaFpoUBAEeuCFNe08e3zYg" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_uaFpokBAEeuCFNe08e3zYg" tag="PREVIEW_ROW_NUMBER" value="50"/>
+    <taggedValue xmi:id="_uaFpo0BAEeuCFNe08e3zYg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <taggedValue xmi:id="_uaYkkEBAEeuCFNe08e3zYg" tag="Is Use Sample Data" value="false"/>
+    <context xmi:id="_z-gw9kA_EeuCFNe08e3zYg">
+      <connection href="../../metadata/connections/Covid_19_0.1.item#_MhjUoEAOEeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqcEA-EeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqgEA-EeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqhEA-EeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqiEA-EeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqjEA-EeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqkEA-EeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqlEA-EeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqmEA-EeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqnEA-EeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqoEA-EeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqpEA-EeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqqEA-EeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqrEA-EeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqsEA-EeuCFNe08e3zYg"/>
+    </context>
+    <results xmi:id="_z-gw90A_EeuCFNe08e3zYg">
+      <resultMetadata xmi:id="_z-gw-EA_EeuCFNe08e3zYg" executionDate="2020-12-17T03:27:35.733-0500" executionDuration="6888" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_uaFppEBAEeuCFNe08e3zYg" computed="true">
+        <parameters xmi:id="_uaFppUBAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqcEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmYEBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; WHERE &quot;state_name&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_twYI0EBBEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_twYI0UBBEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_twYI0kBBEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_twYI00BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_uaFpqkBAEeuCFNe08e3zYg" nullCount="278" computed="true">
+        <parameters xmi:id="_uaFpq0BAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqgEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmYUBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; WHERE &quot;school_closing&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_twyYgEBBEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_twyYgUBBEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_twyYgkBBEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_twyYg0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_uaFprUBAEeuCFNe08e3zYg" nullCount="4047" computed="true">
+        <parameters xmi:id="_uaFprkBAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqhEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmYkBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; WHERE &quot;school_closing_flag&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_txKL8EBBEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_txKL8UBBEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_txKL8kBBEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_txKL80BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_uaFpr0BAEeuCFNe08e3zYg" nullCount="4047" computed="true" distinctValueCount="3">
+        <parameters xmi:id="_uaFpsEBAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqhEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmY0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM (SELECT DISTINCT &quot;school_closing_flag&quot; FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; ) A" language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_txRgsEBBEeuCFNe08e3zYg" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_txRgsUBBEeuCFNe08e3zYg" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_txRgskBBEeuCFNe08e3zYg" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_txRgs0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_uaFpskBAEeuCFNe08e3zYg" nullCount="283" computed="true">
+        <parameters xmi:id="_uaFps0BAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqiEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmZEBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; WHERE &quot;workplace_closing&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_txbRsEBBEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_txbRsUBBEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_txbRskBBEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_txbRs0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_uaFptUBAEeuCFNe08e3zYg" nullCount="3961" computed="true">
+        <parameters xmi:id="_uaFptkBAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqjEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmZUBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; WHERE &quot;workplace_closing_flag&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_txfjIEBBEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_txfjIUBBEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_txfjIkBBEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_txfjI0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_uaFpt0BAEeuCFNe08e3zYg" nullCount="3961" computed="true" distinctValueCount="3">
+        <parameters xmi:id="_uaFpuEBAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqjEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmZkBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM (SELECT DISTINCT &quot;workplace_closing_flag&quot; FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; ) A" language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_txyeEEBBEeuCFNe08e3zYg" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_txyeEUBBEeuCFNe08e3zYg" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_txyeEkBBEeuCFNe08e3zYg" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_txyeE0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_uaFpukBAEeuCFNe08e3zYg" nullCount="282" computed="true">
+        <parameters xmi:id="_uaFpu0BAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqkEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmZ0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; WHERE &quot;cancel_public_events&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_tyAggEBBEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_tyAggUBBEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_tyAggkBBEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_tyAgg0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_uaFpvUBAEeuCFNe08e3zYg" nullCount="4009" computed="true">
+        <parameters xmi:id="_uaFpvkBAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqlEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmaEBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; WHERE &quot;cancel_public_events_flag&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_tydMcEBBEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_tydMcUBBEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_tydMckBBEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_tydMc0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_uaFpv0BAEeuCFNe08e3zYg" nullCount="4009" computed="true" distinctValueCount="3">
+        <parameters xmi:id="_uaFpwEBAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqlEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmaUBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM (SELECT DISTINCT &quot;cancel_public_events_flag&quot; FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; ) A" language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_tyfosEBBEeuCFNe08e3zYg" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_tyfosUBBEeuCFNe08e3zYg" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_tyfoskBBEeuCFNe08e3zYg" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_tyfos0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_uaFpwkBAEeuCFNe08e3zYg" nullCount="271" computed="true">
+        <parameters xmi:id="_uaFpw0BAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqmEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmakBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; WHERE &quot;close_public_transit&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_tzEQcEBBEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_tzEQcUBBEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_tzEQckBBEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_tzEQc0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_uaFpxUBAEeuCFNe08e3zYg" nullCount="11255" computed="true">
+        <parameters xmi:id="_uaFpxkBAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqnEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1Cma0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; WHERE &quot;close_public_transit_flag&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_tzcq8EBBEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_tzcq8UBBEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_tzcq8kBBEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_tzcq80BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_uaFpx0BAEeuCFNe08e3zYg" nullCount="11255" computed="true" distinctValueCount="3">
+        <parameters xmi:id="_uaFpyEBAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqnEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmbEBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM (SELECT DISTINCT &quot;close_public_transit_flag&quot; FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; ) A" language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_tzmb8EBBEeuCFNe08e3zYg" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_tzmb8UBBEeuCFNe08e3zYg" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_tzmb8kBBEeuCFNe08e3zYg" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_tzmb80BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_uaFpykBAEeuCFNe08e3zYg" nullCount="273" computed="true">
+        <parameters xmi:id="_uaFpy0BAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqoEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmbUBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; WHERE &quot;stay_at_home_requirements&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_tztwsEBBEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_tztwsUBBEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_tztwskBBEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_tztws0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_uaFpzUBAEeuCFNe08e3zYg" nullCount="4510" computed="true">
+        <parameters xmi:id="_uaFpzkBAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqpEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmbkBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; WHERE &quot;stay_at_home_requirements_flag&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_t0DH4EBBEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_t0DH4UBBEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_t0DH4kBBEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_t0DH40BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:DistinctCountIndicator" xmi:id="_uaFpz0BAEeuCFNe08e3zYg" nullCount="4510" computed="true" distinctValueCount="3">
+        <parameters xmi:id="_uaFp0EBAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqpEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Distinct_Count_0.1.definition#_ccHq0BF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1Cmb0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM (SELECT DISTINCT &quot;stay_at_home_requirements_flag&quot; FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; ) A" language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_t0UNoEBBEeuCFNe08e3zYg" name="Distinct Count" label="Distinct Count">
+          <taggedValue xmi:id="_t0UNoUBBEeuCFNe08e3zYg" tag="Description" value="counts the number of distinct rows (like a &quot;SELECT DISTINCT&quot; SQL statement)"/>
+          <taggedValue xmi:id="_t0UNokBBEeuCFNe08e3zYg" tag="Purpose" value="evaluates the number of distinct records"/>
+          <sqlGenericExpression xmi:id="_t0UNo0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM (SELECT DISTINCT &lt;%=__COLUMN_NAMES__%> FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>) A" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_uaFp0kBAEeuCFNe08e3zYg" nullCount="1144" computed="true">
+        <parameters xmi:id="_uaFp00BAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqqEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmcEBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; WHERE &quot;confirmed_cases&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_t0ZtMEBBEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_t0ZtMUBBEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_t0ZtMkBBEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_t0ZtM0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_uaFp1UBAEeuCFNe08e3zYg" nullCount="1144" computed="true">
+        <parameters xmi:id="_uaFp1kBAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqrEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmcUBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; WHERE &quot;deaths&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_t0ZtNEBBEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_t0ZtNUBBEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_t0ZtNkBBEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_t0ZtN0BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators:NullCountIndicator" xmi:id="_uaFp2EBAEeuCFNe08e3zYg" nullCount="283" computed="true">
+        <parameters xmi:id="_uaFp2UBAEeuCFNe08e3zYg"/>
+        <analyzedElement xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqsEA-EeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Null_Count_0.1.definition#_GrAeADh9Ed2XmO7pl5Yuyg"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_t1CmckBBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; WHERE &quot;stringency_index&quot; IS NULL " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_t0qy8EBBEeuCFNe08e3zYg" name="Null Count" label="Null Count">
+          <taggedValue xmi:id="_t0qy8UBBEeuCFNe08e3zYg" tag="Purpose" value="evaluate the number of missing data (null records)"/>
+          <taggedValue xmi:id="_t0qy8kBBEeuCFNe08e3zYg" tag="Description" value="counts the number of null rows"/>
+          <sqlGenericExpression xmi:id="_t0qy80BBEeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> WHERE &lt;%=__COLUMN_NAMES__%> IS NULL &lt;%=__AND_WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_z-gw-UA_EeuCFNe08e3zYg" dataFilter="_uaYkkUBAEeuCFNe08e3zYg" analysisType="Multiple Column Analysis"/>
+    <contextType xmi:id="_uaFpoEBAEeuCFNe08e3zYg" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_uaYkkUBAEeuCFNe08e3zYg" name="COlumn2">
+    <ranges xmi:id="_uaYkkkBAEeuCFNe08e3zYg">
+      <expressions xmi:id="_uaYkk0BAEeuCFNe08e3zYg">
+        <expression xsi:type="relational:TdExpression" xmi:id="_uaYklEBAEeuCFNe08e3zYg" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

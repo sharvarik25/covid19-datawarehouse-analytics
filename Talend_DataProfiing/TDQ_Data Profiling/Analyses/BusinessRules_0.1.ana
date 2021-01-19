@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.indicators="http://dataquality.indicators" xmlns:dataquality.indicators.sql="http://dataquality.indicators.sql" xmlns:dataquality.rules="http://dataquality.rules" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010">
+  <dataquality.analysis:Analysis xmi:id="_2goaUEA9EeuCFNe08e3zYg" name="BusinessRules" creationDate="2020-12-17T02:59:56.018-0500" defaultContext="Default">
+    <clientDependency href="../../metadata/connections/Covid_19_0.1.item#_gP6G6kAUEeuCFNe08e3zYg"/>
+    <clientDependency href="../../TDQ_Libraries/Rules/SQL/Demo_DQ_Rule_0.1.rules#_5unZQEA9EeuCFNe08e3zYg"/>
+    <taggedValue xmi:id="_2goaUUA9EeuCFNe08e3zYg" tag="Status" value="development"/>
+    <taggedValue xmi:id="_2goaUkA9EeuCFNe08e3zYg" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_2goaU0A9EeuCFNe08e3zYg" tag="Purpose" value=""/>
+    <taggedValue xmi:id="_2goaVEA9EeuCFNe08e3zYg" tag="Description" value=""/>
+    <taggedValue xmi:id="_2goaVUA9EeuCFNe08e3zYg" tag="Version" value="0.1"/>
+    <taggedValue xmi:id="_6u8N0UA9EeuCFNe08e3zYg" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+    <taggedValue xmi:id="_6u8N00A9EeuCFNe08e3zYg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+    <context xmi:id="_2goaVkA9EeuCFNe08e3zYg">
+      <connection href="../../metadata/connections/Covid_19_0.1.item#_MhjUoEAOEeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="relational:TdTable" href="../../metadata/connections/Covid_19_0.1.item#_HvnS4EASEeuCFNe08e3zYg"/>
+    </context>
+    <results xmi:id="_2goaV0A9EeuCFNe08e3zYg">
+      <resultMetadata xmi:id="_2goaWEA9EeuCFNe08e3zYg" executionDate="2020-12-17T03:00:29.154-0500" executionDuration="1495" message="Query not executed for indicator: &quot;Demo DQ Rule&quot; SQL query: SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;nyt_mask_use&quot;   WHERE (example != ''). Exception: Invalid column name 'example'." executionNumber="1"/>
+      <indicators xsi:type="dataquality.indicators:RowCountIndicator" xmi:id="_2goaWUA9EeuCFNe08e3zYg" count="3142" computed="true">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/Covid_19_0.1.item#_HvnS4EASEeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Simple Statistics/Row_Count_0.1.definition#_ccFOkBF2Ed2PKb6nEJEvhw"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_7cnMIEA9EeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;nyt_mask_use&quot; " language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xmi:id="_7cQm0EA9EeuCFNe08e3zYg" name="Row Count" label="Row Count">
+          <taggedValue xmi:id="_7cQm0UA9EeuCFNe08e3zYg" tag="Description" value="counts the number of rows"/>
+          <taggedValue xmi:id="_7cQm0kA9EeuCFNe08e3zYg" tag="Purpose" value="evaluates the number of records"/>
+          <sqlGenericExpression xmi:id="_7cQm00A9EeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+      <indicators xsi:type="dataquality.indicators.sql:WhereRuleIndicator" xmi:id="_6u8N0kA9EeuCFNe08e3zYg" count="3142">
+        <analyzedElement xsi:type="relational:TdTable" href="../../metadata/connections/Covid_19_0.1.item#_HvnS4EASEeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Rules/SQL/Demo_DQ_Rule_0.1.rules#_hXIKcA-ZEd6qupbF9NyF4w"/>
+        <instantiatedExpressions xsi:type="relational:TdExpression" xmi:id="_7cnMIUA9EeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;nyt_mask_use&quot;   WHERE (example != '')" language="Microsoft SQL Server"/>
+        <builtInIndicatorDefinition xsi:type="dataquality.rules:WhereRule" xmi:id="_7cZwwEA9EeuCFNe08e3zYg" name="Demo DQ Rule" criticalityLevel="1" whereExpression="example != ''">
+          <taggedValue xmi:id="_7cZwwUA9EeuCFNe08e3zYg" tag="Author" value="xqliu"/>
+          <taggedValue xmi:id="_7cZwwkA9EeuCFNe08e3zYg" tag="Description" value="demo"/>
+          <taggedValue xmi:id="_7cZww0A9EeuCFNe08e3zYg" tag="Purpose" value="demo"/>
+          <taggedValue xmi:id="_7cZwxEA9EeuCFNe08e3zYg" tag="Status" value="Draft"/>
+          <taggedValue xmi:id="_7cZwxUA9EeuCFNe08e3zYg" tag="Validation_Status" value="true"/>
+          <sqlGenericExpression xmi:id="_7cZwxkA9EeuCFNe08e3zYg" body="SELECT COUNT(*) FROM &lt;%=__TABLE_NAME__%> &lt;%=__JOIN_CLAUSE__%> &lt;%=__WHERE_CLAUSE__%>" language="SQL"/>
+        </builtInIndicatorDefinition>
+      </indicators>
+    </results>
+    <parameters xmi:id="_2goaWkA9EeuCFNe08e3zYg" dataFilter="_6wMyEEA9EeuCFNe08e3zYg" analysisType="Table Analysis"/>
+    <contextType xmi:id="_6u8N0EA9EeuCFNe08e3zYg" confirmationNeeded="false" name="Default"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_6wMyEEA9EeuCFNe08e3zYg" name="BusinessRules">
+    <ranges xmi:id="_6wMyEUA9EeuCFNe08e3zYg">
+      <expressions xmi:id="_6wMyEkA9EeuCFNe08e3zYg">
+        <expression xsi:type="relational:TdExpression" xmi:id="_6wMyE0A9EeuCFNe08e3zYg" body="" language="SQL"/>
+      </expressions>
+    </ranges>
+  </dataquality.domain:Domain>
+</xmi:XMI>

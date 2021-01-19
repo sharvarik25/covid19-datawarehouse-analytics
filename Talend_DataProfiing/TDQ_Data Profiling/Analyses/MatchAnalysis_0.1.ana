@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_QjL9QUA-EeuCFNe08e3zYg" name="MatchAnalysis" creationDate="2020-12-17T03:02:50.703-0500" defaultContext="Default">
+  <clientDependency href="../../metadata/connections/Covid_19_0.1.item#_gP6G6kAUEeuCFNe08e3zYg"/>
+  <taggedValue xmi:id="_QjL9QkA-EeuCFNe08e3zYg" tag="PREVIEW_ROW_NUMBER" value="10000"/>
+  <taggedValue xmi:id="_QjL9Q0A-EeuCFNe08e3zYg" tag="Status" value="development"/>
+  <taggedValue xmi:id="_QjL9REA-EeuCFNe08e3zYg" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_QjL9RUA-EeuCFNe08e3zYg" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_QjL9RkA-EeuCFNe08e3zYg" tag="Description" value=""/>
+  <taggedValue xmi:id="_QjL9R0A-EeuCFNe08e3zYg" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_QyyfgEA-EeuCFNe08e3zYg" tag="TEMP_DATA_DIR" value=""/>
+  <taggedValue xmi:id="_QyyfgUA-EeuCFNe08e3zYg" tag="MAX_BUFFER_SIZE" value="200000"/>
+  <taggedValue xmi:id="_QyyfgkA-EeuCFNe08e3zYg" tag="STORE_ON_DISK" value="false"/>
+  <taggedValue xmi:id="_RohNoUA-EeuCFNe08e3zYg" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <context xmi:id="_QjL9SEA-EeuCFNe08e3zYg">
+    <connection href="../../metadata/connections/Covid_19_0.1.item#_MhjUoEAOEeuCFNe08e3zYg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_2Zi69EA9EeuCFNe08e3zYg"/>
+  </context>
+  <results xmi:id="_QjL9SUA-EeuCFNe08e3zYg">
+    <resultMetadata xmi:id="_QjL9SkA-EeuCFNe08e3zYg"/>
+    <indicators xsi:type="dataquality.indicators.columnset:BlockKeyIndicator" xmi:id="_QjVuQEA-EeuCFNe08e3zYg"/>
+    <indicators xsi:type="dataquality.indicators.columnset:RecordMatchingIndicator" xmi:id="_QjVuQUA-EeuCFNe08e3zYg">
+      <builtInMatchRuleDefinition xmi:id="_QjVuQkA-EeuCFNe08e3zYg">
+        <matchRules xmi:id="_Qu9IYEA-EeuCFNe08e3zYg" name="Match Rule 1"/>
+      </builtInMatchRuleDefinition>
+    </indicators>
+  </results>
+  <parameters xmi:id="_QjVuQ0A-EeuCFNe08e3zYg" analysisType="Match Analysis"/>
+  <contextType xmi:id="_RohNoEA-EeuCFNe08e3zYg" confirmationNeeded="false" name="Default"/>
+</dataquality.analysis:Analysis>

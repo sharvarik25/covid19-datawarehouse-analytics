@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataquality.analysis:Analysis xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.indicators.columnset="http://dataquality.indicators.columnset" xmlns:relational="http://www.talend.org/cwm/resource/relational/2010" xmi:id="_8pI5kUBREeuCFNe08e3zYg" name="DependencyAnalysis" creationDate="2020-12-17T05:23:47.113-0500" defaultContext="Default">
+  <clientDependency href="../../metadata/connections/Covid_19_0.1.item#_gP6G6kAUEeuCFNe08e3zYg"/>
+  <taggedValue xmi:id="_8pI5kkBREeuCFNe08e3zYg" tag="Status" value="development"/>
+  <taggedValue xmi:id="_8pI5k0BREeuCFNe08e3zYg" tag="Author" value="user@talend.com"/>
+  <taggedValue xmi:id="_8pI5lEBREeuCFNe08e3zYg" tag="Purpose" value=""/>
+  <taggedValue xmi:id="_8pI5lUBREeuCFNe08e3zYg" tag="Description" value=""/>
+  <taggedValue xmi:id="_8pI5lkBREeuCFNe08e3zYg" tag="Version" value="0.1"/>
+  <taggedValue xmi:id="_tYHxIUBSEeuCFNe08e3zYg" tag="ANA_LAST_RUN_CONTEXT" value="Default"/>
+  <taggedValue xmi:id="_tYHxIkBSEeuCFNe08e3zYg" tag="PREVIEW_ROW_NUMBER" value="50"/>
+  <taggedValue xmi:id="_tYgysEBSEeuCFNe08e3zYg" tag="NUMBER_OF_CONNECTIONS_PER_ANALYSIS" value="5"/>
+  <context xmi:id="_8pI5l0BREeuCFNe08e3zYg">
+    <connection href="../../metadata/connections/Covid_19_0.1.item#_MhjUoEAOEeuCFNe08e3zYg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqsEA-EeuCFNe08e3zYg"/>
+    <analysedElements xsi:type="relational:TdColumn" href="../../metadata/connections/Covid_19_0.1.item#_cleqrEA-EeuCFNe08e3zYg"/>
+  </context>
+  <results xmi:id="_8pI5mEBREeuCFNe08e3zYg">
+    <resultMetadata xmi:id="_8pI5mUBREeuCFNe08e3zYg" executionDate="2020-12-17T05:31:06.468-0500" executionDuration="3140" message="" executionNumber="4" lastRunOk="true" lastExecutionNumberOk="4"/>
+    <indicators xsi:type="dataquality.indicators.columnset:ColumnDependencyIndicator" xmi:id="_84nDgEBSEeuCFNe08e3zYg" aCount="10791" distinctACount="85">
+      <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Functional Dependency/Functional_Dependency_0.1.definition#_YqcX0XHpEd6udst2R2sgpA"/>
+      <instantiatedExpressions xmi:id="_-HJ6QEBSEeuCFNe08e3zYg" body="SELECT COUNT(*) AS NB, COUNT(DISTINCT A) AS NBDISTINCT FROM (SELECT DISTINCT &quot;stringency_index&quot; AS A , &quot;deaths&quot; AS B FROM  &quot;stagingarea&quot;.&quot;dbo&quot;.&quot;oxford_policy_tracker&quot; C  ) T" language="SQL"/>
+      <columnA href="../../metadata/connections/Covid_19_0.1.item#_cleqsEA-EeuCFNe08e3zYg"/>
+      <columnB href="../../metadata/connections/Covid_19_0.1.item#_cleqrEA-EeuCFNe08e3zYg"/>
+    </indicators>
+  </results>
+  <parameters xmi:id="_8pI5mkBREeuCFNe08e3zYg" analysisType="Functional Dependency"/>
+  <contextType xmi:id="_tYHxIEBSEeuCFNe08e3zYg" confirmationNeeded="false" name="Default"/>
+</dataquality.analysis:Analysis>

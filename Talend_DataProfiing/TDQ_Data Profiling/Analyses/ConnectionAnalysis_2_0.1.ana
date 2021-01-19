@@ -1,0 +1,1427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010" xmlns:dataquality.analysis="http://dataquality.analysis" xmlns:dataquality.domain="http://dataquality.domain" xmlns:dataquality.domain.pattern="http://dataquality.domain.pattern" xmlns:dataquality.indicators.schema="http://dataquality.indicators.schema" xmlns:orgomg.cwm.resource.relational="http:///orgomg/cwm/resource/relational.ecore">
+  <dataquality.analysis:Analysis xmi:id="_9zAOAUA4EeuCFNe08e3zYg" name="ConnectionAnalysis_2" creationDate="2020-12-17T02:24:57.440-0500">
+    <clientDependency href="../../metadata/connections/Covid_19_0.1.item#_gP6G6kAUEeuCFNe08e3zYg"/>
+    <taggedValue xmi:id="_9zAOAkA4EeuCFNe08e3zYg" tag="Status" value="development"/>
+    <taggedValue xmi:id="_9zAOA0A4EeuCFNe08e3zYg" tag="Author" value="user@talend.com"/>
+    <taggedValue xmi:id="_9zAOBEA4EeuCFNe08e3zYg" tag="Purpose"/>
+    <taggedValue xmi:id="_9zAOBUA4EeuCFNe08e3zYg" tag="Description"/>
+    <taggedValue xmi:id="_9zAOBkA4EeuCFNe08e3zYg" tag="Version" value="0.1"/>
+    <context xmi:id="_9zAOB0A4EeuCFNe08e3zYg">
+      <connection href="../../metadata/connections/Covid_19_0.1.item#_MhjUoEAOEeuCFNe08e3zYg"/>
+      <analysedElements xsi:type="TalendMetadata:DatabaseConnection" href="../../metadata/connections/Covid_19_0.1.item#_MhjUoEAOEeuCFNe08e3zYg"/>
+    </context>
+    <results xmi:id="_9zAOCEA4EeuCFNe08e3zYg">
+      <resultMetadata xmi:id="_9zAOCUA4EeuCFNe08e3zYg" executionDate="2020-12-17T02:26:02.303-0500" executionDuration="142150" message="" executionNumber="1" lastRunOk="true" lastExecutionNumberOk="1"/>
+      <indicators xsi:type="dataquality.indicators.schema:ConnectionIndicator" xmi:id="_9zAOCkA4EeuCFNe08e3zYg" computed="true" tableCount="1" viewCount="446" tableRowCount="1120185" viewRowCount="214930" catalogCount="1">
+        <analyzedElement xsi:type="TalendMetadata:DatabaseConnection" href="../../metadata/connections/Covid_19_0.1.item#_MhjUoEAOEeuCFNe08e3zYg"/>
+        <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Connection_Overview_0.1.definition#_nZEo8MYSEd27NP4lvE0A4w"/>
+        <catalogIndicators xmi:id="_HrJ-4EA5EeuCFNe08e3zYg" tableCount="1" viewCount="446" tableRowCount="1120185" viewRowCount="214930" schemaCount="13">
+          <analyzedElement xsi:type="orgomg.cwm.resource.relational:Catalog" href="../../metadata/connections/Covid_19_0.1.item#_M9QZMEAOEeuCFNe08e3zYg"/>
+          <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Catalog_Overview_0.1.definition#_QwDiwMYUEd27NP4lvE0A4w"/>
+          <schemaIndicators xmi:id="_HrJ-4UA5EeuCFNe08e3zYg">
+            <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/Covid_19_0.1.item#_M9QZMUAOEeuCFNe08e3zYg"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+          </schemaIndicators>
+          <schemaIndicators xmi:id="_HvwyEEA5EeuCFNe08e3zYg">
+            <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/Covid_19_0.1.item#_M9QZMkAOEeuCFNe08e3zYg"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+          </schemaIndicators>
+          <schemaIndicators xmi:id="_H11k4EA5EeuCFNe08e3zYg">
+            <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/Covid_19_0.1.item#_M9QZM0AOEeuCFNe08e3zYg"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+          </schemaIndicators>
+          <schemaIndicators xmi:id="_H9XJMEA5EeuCFNe08e3zYg">
+            <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/Covid_19_0.1.item#_M9QZNEAOEeuCFNe08e3zYg"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+          </schemaIndicators>
+          <schemaIndicators xmi:id="_IFTkQEA5EeuCFNe08e3zYg">
+            <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/Covid_19_0.1.item#_M9QZNUAOEeuCFNe08e3zYg"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+          </schemaIndicators>
+          <schemaIndicators xmi:id="_IMl4AEA5EeuCFNe08e3zYg">
+            <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/Covid_19_0.1.item#_M9QZNkAOEeuCFNe08e3zYg"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+          </schemaIndicators>
+          <schemaIndicators xmi:id="_IS1C4EA5EeuCFNe08e3zYg">
+            <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/Covid_19_0.1.item#_M9QZN0AOEeuCFNe08e3zYg"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+          </schemaIndicators>
+          <schemaIndicators xmi:id="_IYatgEA5EeuCFNe08e3zYg">
+            <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/Covid_19_0.1.item#_M9QZOEAOEeuCFNe08e3zYg"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+          </schemaIndicators>
+          <schemaIndicators xmi:id="_Id2nIEA5EeuCFNe08e3zYg">
+            <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/Covid_19_0.1.item#_M9QZOUAOEeuCFNe08e3zYg"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+          </schemaIndicators>
+          <schemaIndicators xmi:id="_JMXS8EA5EeuCFNe08e3zYg" tableCount="1" tableRowCount="1120185">
+            <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/Covid_19_0.1.item#_M9QZOkAOEeuCFNe08e3zYg"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+            <tableIndicators xmi:id="_JMXS8UA5EeuCFNe08e3zYg" rowCount="1120185" tableName="covid_19_open_data_US">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Table_Overview_0.1.definition#_hgO7YMYUEd27NP4lvE0A4w"/>
+            </tableIndicators>
+          </schemaIndicators>
+          <schemaIndicators xmi:id="_JTcyYEA5EeuCFNe08e3zYg">
+            <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/Covid_19_0.1.item#_M9QZO0AOEeuCFNe08e3zYg"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+          </schemaIndicators>
+          <schemaIndicators xmi:id="_KLMSsEA5EeuCFNe08e3zYg" viewCount="21" viewRowCount="188">
+            <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/Covid_19_0.1.item#_M9QZPEAOEeuCFNe08e3zYg"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+            <viewIndicators xmi:id="_KLMSsUA5EeuCFNe08e3zYg" tableName="CHECK_CONSTRAINTS">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSskA5EeuCFNe08e3zYg" tableName="COLUMN_DOMAIN_USAGE">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSs0A5EeuCFNe08e3zYg" tableName="COLUMN_PRIVILEGES">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMStEA5EeuCFNe08e3zYg" rowCount="162" tableName="COLUMNS">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMStUA5EeuCFNe08e3zYg" tableName="CONSTRAINT_COLUMN_USAGE">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMStkA5EeuCFNe08e3zYg" tableName="CONSTRAINT_TABLE_USAGE">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSt0A5EeuCFNe08e3zYg" tableName="DOMAIN_CONSTRAINTS">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSuEA5EeuCFNe08e3zYg" tableName="DOMAINS">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSuUA5EeuCFNe08e3zYg" tableName="KEY_COLUMN_USAGE">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSukA5EeuCFNe08e3zYg" tableName="PARAMETERS">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSu0A5EeuCFNe08e3zYg" tableName="REFERENTIAL_CONSTRAINTS">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSvEA5EeuCFNe08e3zYg" tableName="ROUTINE_COLUMNS">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSvUA5EeuCFNe08e3zYg" tableName="ROUTINES">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSvkA5EeuCFNe08e3zYg" rowCount="13" tableName="SCHEMATA">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSv0A5EeuCFNe08e3zYg" tableName="SEQUENCES">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSwEA5EeuCFNe08e3zYg" tableName="TABLE_CONSTRAINTS">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSwUA5EeuCFNe08e3zYg" rowCount="1" tableName="TABLE_PRIVILEGES">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSwkA5EeuCFNe08e3zYg" rowCount="11" tableName="TABLES">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSw0A5EeuCFNe08e3zYg" tableName="VIEW_COLUMN_USAGE">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSxEA5EeuCFNe08e3zYg" tableName="VIEW_TABLE_USAGE">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_KLMSxUA5EeuCFNe08e3zYg" rowCount="1" tableName="VIEWS">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+          </schemaIndicators>
+          <schemaIndicators xmi:id="_cpD8MEA5EeuCFNe08e3zYg" viewCount="425" viewRowCount="214742">
+            <analyzedElement xsi:type="orgomg.cwm.resource.relational:Schema" href="../../metadata/connections/Covid_19_0.1.item#_M9QZPUAOEeuCFNe08e3zYg"/>
+            <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/Schema_Overview_0.1.definition#_V4SA0MYUEd27NP4lvE0A4w"/>
+            <viewIndicators xmi:id="_cpD8MUA5EeuCFNe08e3zYg" rowCount="9512" tableName="all_columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8MkA5EeuCFNe08e3zYg" rowCount="1132" tableName="all_objects">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8M0A5EeuCFNe08e3zYg" rowCount="1398" tableName="all_parameters">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8NEA5EeuCFNe08e3zYg" rowCount="895" tableName="all_sql_modules">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8NUA5EeuCFNe08e3zYg" rowCount="446" tableName="all_views">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8NkA5EeuCFNe08e3zYg" rowCount="228" tableName="allocation_units">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8N0A5EeuCFNe08e3zYg" rowCount="1" tableName="assemblies">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8OEA5EeuCFNe08e3zYg" rowCount="1" tableName="assembly_files">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8OUA5EeuCFNe08e3zYg" tableName="assembly_modules">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8OkA5EeuCFNe08e3zYg" tableName="assembly_references">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8O0A5EeuCFNe08e3zYg" rowCount="3" tableName="assembly_types">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8PEA5EeuCFNe08e3zYg" tableName="asymmetric_keys">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8PUA5EeuCFNe08e3zYg" tableName="certificates">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8PkA5EeuCFNe08e3zYg" tableName="change_tracking_databases">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8P0A5EeuCFNe08e3zYg" tableName="change_tracking_tables">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8QEA5EeuCFNe08e3zYg" tableName="check_constraints">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8QUA5EeuCFNe08e3zYg" tableName="column_encryption_key_values">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8QkA5EeuCFNe08e3zYg" tableName="column_encryption_keys">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8Q0A5EeuCFNe08e3zYg" tableName="column_master_key_definitions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8REA5EeuCFNe08e3zYg" tableName="column_master_keys">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8RUA5EeuCFNe08e3zYg" tableName="column_store_dictionaries">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8RkA5EeuCFNe08e3zYg" tableName="column_store_row_groups">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8R0A5EeuCFNe08e3zYg" tableName="column_store_segments">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8SEA5EeuCFNe08e3zYg" tableName="column_type_usages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8SUA5EeuCFNe08e3zYg" tableName="column_xml_schema_collection_usages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8SkA5EeuCFNe08e3zYg" rowCount="1206" tableName="columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8S0A5EeuCFNe08e3zYg" tableName="computed_columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8TEA5EeuCFNe08e3zYg" rowCount="90" tableName="configurations">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8TUA5EeuCFNe08e3zYg" tableName="conversation_endpoints">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8TkA5EeuCFNe08e3zYg" tableName="conversation_groups">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8T0A5EeuCFNe08e3zYg" tableName="conversation_priorities">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8UEA5EeuCFNe08e3zYg" tableName="credentials">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8UUA5EeuCFNe08e3zYg" tableName="crypt_properties">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8UkA5EeuCFNe08e3zYg" rowCount="2" tableName="data_spaces">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8U0A5EeuCFNe08e3zYg" tableName="database_audit_specification_details">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8VEA5EeuCFNe08e3zYg" tableName="database_audit_specifications">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8VUA5EeuCFNe08e3zYg" rowCount="1" tableName="database_automatic_tuning_mode">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8VkA5EeuCFNe08e3zYg" rowCount="4" tableName="database_automatic_tuning_options">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8V0A5EeuCFNe08e3zYg" tableName="database_connection_stats_ex">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8WEA5EeuCFNe08e3zYg" tableName="database_credentials">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8WUA5EeuCFNe08e3zYg" tableName="database_event_session_actions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8WkA5EeuCFNe08e3zYg" tableName="database_event_session_events">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8W0A5EeuCFNe08e3zYg" tableName="database_event_session_fields">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8XEA5EeuCFNe08e3zYg" tableName="database_event_session_targets">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8XUA5EeuCFNe08e3zYg" tableName="database_event_sessions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8XkA5EeuCFNe08e3zYg" rowCount="3" tableName="database_files">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8X0A5EeuCFNe08e3zYg" tableName="database_firewall_rules">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8YEA5EeuCFNe08e3zYg" tableName="database_ledger_blocks">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8YUA5EeuCFNe08e3zYg" tableName="database_ledger_transactions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8YkA5EeuCFNe08e3zYg" rowCount="207" tableName="database_permissions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8Y0A5EeuCFNe08e3zYg" rowCount="14" tableName="database_principals">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8ZEA5EeuCFNe08e3zYg" rowCount="1" tableName="database_query_store_options">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8ZUA5EeuCFNe08e3zYg" rowCount="1" tableName="database_resource_governor_workload_groups">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8ZkA5EeuCFNe08e3zYg" rowCount="1" tableName="database_role_members">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8Z0A5EeuCFNe08e3zYg" rowCount="26" tableName="database_scoped_configurations">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8aEA5EeuCFNe08e3zYg" tableName="database_scoped_credentials">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8aUA5EeuCFNe08e3zYg" rowCount="1" tableName="database_service_objectives">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8akA5EeuCFNe08e3zYg" rowCount="2" tableName="databases">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8a0A5EeuCFNe08e3zYg" tableName="default_constraints">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8bEA5EeuCFNe08e3zYg" tableName="destination_data_spaces">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8bUA5EeuCFNe08e3zYg" tableName="devops_database_access">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8bkA5EeuCFNe08e3zYg" tableName="devops_database_principals">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8b0A5EeuCFNe08e3zYg" tableName="devops_principals">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8cEA5EeuCFNe08e3zYg" rowCount="629" tableName="dm_audit_actions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8cUA5EeuCFNe08e3zYg" rowCount="108" tableName="dm_audit_class_type_map">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8ckA5EeuCFNe08e3zYg" tableName="dm_broker_activated_tasks">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8c0A5EeuCFNe08e3zYg" tableName="dm_broker_forwarded_messages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8dEA5EeuCFNe08e3zYg" rowCount="3" tableName="dm_broker_queue_monitors">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8dUA5EeuCFNe08e3zYg" tableName="dm_cdc_errors">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8dkA5EeuCFNe08e3zYg" tableName="dm_cdc_log_scan_sessions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8d0A5EeuCFNe08e3zYg" rowCount="1" tableName="dm_cloud_database_epoch">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8eEA5EeuCFNe08e3zYg" rowCount="1" tableName="dm_clr_appdomains">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8eUA5EeuCFNe08e3zYg" rowCount="1" tableName="dm_clr_loaded_assemblies">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8ekA5EeuCFNe08e3zYg" rowCount="3" tableName="dm_clr_properties">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8e0A5EeuCFNe08e3zYg" rowCount="2" tableName="dm_clr_tasks">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8fEA5EeuCFNe08e3zYg" tableName="dm_cluster_endpoints">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8fUA5EeuCFNe08e3zYg" tableName="dm_column_encryption_enclave">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8fkA5EeuCFNe08e3zYg" tableName="dm_column_encryption_enclave_operation_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8f0A5EeuCFNe08e3zYg" tableName="dm_column_store_object_pool">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8gEA5EeuCFNe08e3zYg" tableName="dm_continuous_copy_status">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8gUA5EeuCFNe08e3zYg" rowCount="2" tableName="dm_database_encryption_keys">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8gkA5EeuCFNe08e3zYg" rowCount="1" tableName="dm_database_replica_states">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8g0A5EeuCFNe08e3zYg" tableName="dm_db_column_store_row_group_operational_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8hEA5EeuCFNe08e3zYg" tableName="dm_db_column_store_row_group_physical_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8hUA5EeuCFNe08e3zYg" tableName="dm_db_data_pool_nodes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8hkA5EeuCFNe08e3zYg" tableName="dm_db_data_pools">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8h0A5EeuCFNe08e3zYg" rowCount="1" tableName="dm_db_file_space_usage">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8iEA5EeuCFNe08e3zYg" tableName="dm_db_fts_index_physical_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8iUA5EeuCFNe08e3zYg" rowCount="10" tableName="dm_db_index_usage_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8ikA5EeuCFNe08e3zYg" rowCount="1" tableName="dm_db_log_space_usage">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8i0A5EeuCFNe08e3zYg" tableName="dm_db_missing_index_details">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8jEA5EeuCFNe08e3zYg" tableName="dm_db_missing_index_group_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8jUA5EeuCFNe08e3zYg" tableName="dm_db_missing_index_group_stats_query">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8jkA5EeuCFNe08e3zYg" tableName="dm_db_missing_index_groups">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8j0A5EeuCFNe08e3zYg" tableName="dm_db_objects_impacted_on_version_change">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8kEA5EeuCFNe08e3zYg" rowCount="174" tableName="dm_db_partition_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8kUA5EeuCFNe08e3zYg" rowCount="1" tableName="dm_db_persisted_sku_features">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8kkA5EeuCFNe08e3zYg" rowCount="1" tableName="dm_db_resource_governor_configuration">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8k0A5EeuCFNe08e3zYg" rowCount="256" tableName="dm_db_resource_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8lEA5EeuCFNe08e3zYg" tableName="dm_db_script_level">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8lUA5EeuCFNe08e3zYg" rowCount="78" tableName="dm_db_session_space_usage">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8lkA5EeuCFNe08e3zYg" tableName="dm_db_storage_pool_nodes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8l0A5EeuCFNe08e3zYg" tableName="dm_db_storage_pools">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8mEA5EeuCFNe08e3zYg" rowCount="78" tableName="dm_db_task_space_usage">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8mUA5EeuCFNe08e3zYg" tableName="dm_db_tuning_recommendations">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8mkA5EeuCFNe08e3zYg" rowCount="2" tableName="dm_db_uncontained_entities">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8m0A5EeuCFNe08e3zYg" rowCount="32" tableName="dm_db_wait_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8nEA5EeuCFNe08e3zYg" tableName="dm_db_workload_group_resource_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8nUA5EeuCFNe08e3zYg" tableName="dm_db_xtp_checkpoint_files">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8nkA5EeuCFNe08e3zYg" tableName="dm_db_xtp_checkpoint_internals">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8n0A5EeuCFNe08e3zYg" tableName="dm_db_xtp_checkpoint_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8oEA5EeuCFNe08e3zYg" tableName="dm_db_xtp_gc_cycle_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8oUA5EeuCFNe08e3zYg" tableName="dm_db_xtp_hash_index_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8okA5EeuCFNe08e3zYg" tableName="dm_db_xtp_index_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8o0A5EeuCFNe08e3zYg" tableName="dm_db_xtp_memory_consumers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8pEA5EeuCFNe08e3zYg" tableName="dm_db_xtp_nonclustered_index_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8pUA5EeuCFNe08e3zYg" tableName="dm_db_xtp_object_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8pkA5EeuCFNe08e3zYg" tableName="dm_db_xtp_table_memory_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8p0A5EeuCFNe08e3zYg" tableName="dm_db_xtp_transactions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8qEA5EeuCFNe08e3zYg" tableName="dm_exec_background_job_queue">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8qUA5EeuCFNe08e3zYg" rowCount="1" tableName="dm_exec_background_job_queue_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8qkA5EeuCFNe08e3zYg" rowCount="1237" tableName="dm_exec_cached_plans">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8q0A5EeuCFNe08e3zYg" tableName="dm_exec_compute_node_errors">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8rEA5EeuCFNe08e3zYg" tableName="dm_exec_compute_node_status">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8rUA5EeuCFNe08e3zYg" tableName="dm_exec_compute_nodes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8rkA5EeuCFNe08e3zYg" tableName="dm_exec_compute_pools">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8r0A5EeuCFNe08e3zYg" rowCount="24" tableName="dm_exec_connections">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8sEA5EeuCFNe08e3zYg" tableName="dm_exec_distributed_request_steps">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8sUA5EeuCFNe08e3zYg" tableName="dm_exec_distributed_requests">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8skA5EeuCFNe08e3zYg" tableName="dm_exec_distributed_sql_requests">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8s0A5EeuCFNe08e3zYg" tableName="dm_exec_dms_services">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8tEA5EeuCFNe08e3zYg" tableName="dm_exec_dms_workers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8tUA5EeuCFNe08e3zYg" tableName="dm_exec_external_operations">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8tkA5EeuCFNe08e3zYg" tableName="dm_exec_external_work">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8t0A5EeuCFNe08e3zYg" tableName="dm_exec_function_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8uEA5EeuCFNe08e3zYg" rowCount="8" tableName="dm_exec_procedure_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8uUA5EeuCFNe08e3zYg" tableName="dm_exec_query_memory_grants">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8ukA5EeuCFNe08e3zYg" rowCount="39" tableName="dm_exec_query_optimizer_info">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8u0A5EeuCFNe08e3zYg" rowCount="45" tableName="dm_exec_query_optimizer_memory_gateways">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8vEA5EeuCFNe08e3zYg" rowCount="3" tableName="dm_exec_query_profiles">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8vUA5EeuCFNe08e3zYg" rowCount="30" tableName="dm_exec_query_resource_semaphores">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8vkA5EeuCFNe08e3zYg" rowCount="708" tableName="dm_exec_query_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8v0A5EeuCFNe08e3zYg" rowCount="435" tableName="dm_exec_query_transformation_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8wEA5EeuCFNe08e3zYg" rowCount="59" tableName="dm_exec_requests">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8wUA5EeuCFNe08e3zYg" tableName="dm_exec_requests_history">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8wkA5EeuCFNe08e3zYg" rowCount="24" tableName="dm_exec_session_wait_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8w0A5EeuCFNe08e3zYg" rowCount="81" tableName="dm_exec_sessions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8xEA5EeuCFNe08e3zYg" tableName="dm_exec_trigger_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8xUA5EeuCFNe08e3zYg" rowCount="26" tableName="dm_exec_valid_use_hints">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8xkA5EeuCFNe08e3zYg" rowCount="1" tableName="dm_external_authentication">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8x0A5EeuCFNe08e3zYg" rowCount="3" tableName="dm_external_data_processed">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8yEA5EeuCFNe08e3zYg" tableName="dm_external_script_execution_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8yUA5EeuCFNe08e3zYg" tableName="dm_external_script_requests">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8ykA5EeuCFNe08e3zYg" tableName="dm_external_script_resource_usage_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8y0A5EeuCFNe08e3zYg" tableName="dm_fts_active_catalogs">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8zEA5EeuCFNe08e3zYg" tableName="dm_fts_fdhosts">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8zUA5EeuCFNe08e3zYg" tableName="dm_fts_index_population">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8zkA5EeuCFNe08e3zYg" tableName="dm_fts_memory_buffers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8z0A5EeuCFNe08e3zYg" rowCount="2" tableName="dm_fts_memory_pools">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD80EA5EeuCFNe08e3zYg" tableName="dm_fts_outstanding_batches">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD80UA5EeuCFNe08e3zYg" tableName="dm_fts_population_ranges">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD80kA5EeuCFNe08e3zYg" tableName="dm_fts_semantic_similarity_population">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD800A5EeuCFNe08e3zYg" tableName="dm_geo_replication_link_status">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD81EA5EeuCFNe08e3zYg" tableName="dm_hpc_device_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD81UA5EeuCFNe08e3zYg" tableName="dm_hpc_thread_proxy_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD81kA5EeuCFNe08e3zYg" tableName="dm_io_pending_io_requests">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD810A5EeuCFNe08e3zYg" tableName="dm_operation_status">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD82EA5EeuCFNe08e3zYg" rowCount="67538" tableName="dm_os_buffer_descriptors">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD82UA5EeuCFNe08e3zYg" rowCount="6" tableName="dm_os_dispatcher_pools">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD82kA5EeuCFNe08e3zYg" rowCount="2" tableName="dm_os_dispatchers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD820A5EeuCFNe08e3zYg" rowCount="8" tableName="dm_os_hosts">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD83EA5EeuCFNe08e3zYg" rowCount="1" tableName="dm_os_job_object">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD83UA5EeuCFNe08e3zYg" rowCount="177" tableName="dm_os_latch_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD83kA5EeuCFNe08e3zYg" tableName="dm_os_memory_allocations">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD830A5EeuCFNe08e3zYg" rowCount="1" tableName="dm_os_memory_broker_clerks">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD84EA5EeuCFNe08e3zYg" rowCount="76" tableName="dm_os_memory_brokers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD84UA5EeuCFNe08e3zYg" rowCount="300" tableName="dm_os_memory_cache_clock_hands">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD84kA5EeuCFNe08e3zYg" rowCount="118" tableName="dm_os_memory_cache_counters">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD840A5EeuCFNe08e3zYg" rowCount="3678" tableName="dm_os_memory_cache_entries">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD85EA5EeuCFNe08e3zYg" rowCount="61" tableName="dm_os_memory_cache_hash_tables">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD85UA5EeuCFNe08e3zYg" rowCount="331" tableName="dm_os_memory_clerks">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD85kA5EeuCFNe08e3zYg" rowCount="6" tableName="dm_os_memory_node_access_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD850A5EeuCFNe08e3zYg" rowCount="2" tableName="dm_os_memory_nodes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD86EA5EeuCFNe08e3zYg" rowCount="3999" tableName="dm_os_memory_objects">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD86UA5EeuCFNe08e3zYg" rowCount="67" tableName="dm_os_memory_pools">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD86kA5EeuCFNe08e3zYg" rowCount="2" tableName="dm_os_nodes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD860A5EeuCFNe08e3zYg" rowCount="3550" tableName="dm_os_performance_counters">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD87EA5EeuCFNe08e3zYg" rowCount="24187" tableName="dm_os_ring_buffers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD87UA5EeuCFNe08e3zYg" rowCount="11" tableName="dm_os_schedulers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD87kA5EeuCFNe08e3zYg" rowCount="490" tableName="dm_os_spinlock_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD870A5EeuCFNe08e3zYg" rowCount="13" tableName="dm_os_stacks">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD88EA5EeuCFNe08e3zYg" tableName="dm_os_sublatches">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD88UA5EeuCFNe08e3zYg" rowCount="1" tableName="dm_os_sys_info">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD88kA5EeuCFNe08e3zYg" rowCount="65" tableName="dm_os_tasks">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD880A5EeuCFNe08e3zYg" rowCount="122" tableName="dm_os_threads">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD89EA5EeuCFNe08e3zYg" rowCount="1321" tableName="dm_os_wait_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD89UA5EeuCFNe08e3zYg" rowCount="45" tableName="dm_os_waiting_tasks">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD89kA5EeuCFNe08e3zYg" rowCount="78" tableName="dm_os_worker_local_storage">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD890A5EeuCFNe08e3zYg" rowCount="78" tableName="dm_os_workers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8-EA5EeuCFNe08e3zYg" tableName="dm_qn_subscriptions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8-UA5EeuCFNe08e3zYg" rowCount="15" tableName="dm_resource_governor_resource_pools">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8-kA5EeuCFNe08e3zYg" rowCount="1920" tableName="dm_resource_governor_resource_pools_history_ex">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8-0A5EeuCFNe08e3zYg" rowCount="31" tableName="dm_resource_governor_workload_groups">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8_EA5EeuCFNe08e3zYg" rowCount="3968" tableName="dm_resource_governor_workload_groups_history_ex">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8_UA5EeuCFNe08e3zYg" tableName="dm_tran_aborted_transactions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8_kA5EeuCFNe08e3zYg" tableName="dm_tran_active_snapshot_database_transactions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD8_0A5EeuCFNe08e3zYg" rowCount="9" tableName="dm_tran_active_transactions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9AEA5EeuCFNe08e3zYg" tableName="dm_tran_commit_table">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9AUA5EeuCFNe08e3zYg" tableName="dm_tran_current_snapshot">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9AkA5EeuCFNe08e3zYg" rowCount="1" tableName="dm_tran_current_transaction">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9A0A5EeuCFNe08e3zYg" rowCount="8" tableName="dm_tran_database_transactions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9BEA5EeuCFNe08e3zYg" tableName="dm_tran_global_recovery_transactions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9BUA5EeuCFNe08e3zYg" tableName="dm_tran_global_transactions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9BkA5EeuCFNe08e3zYg" tableName="dm_tran_global_transactions_enlistments">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9B0A5EeuCFNe08e3zYg" tableName="dm_tran_global_transactions_log">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9CEA5EeuCFNe08e3zYg" rowCount="20" tableName="dm_tran_locks">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9CUA5EeuCFNe08e3zYg" rowCount="8" tableName="dm_tran_persistent_version_store_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9CkA5EeuCFNe08e3zYg" tableName="dm_tran_session_transactions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9C0A5EeuCFNe08e3zYg" tableName="dm_tran_top_version_generators">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9DEA5EeuCFNe08e3zYg" tableName="dm_tran_transactions_snapshot">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9DUA5EeuCFNe08e3zYg" tableName="dm_tran_version_store">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9DkA5EeuCFNe08e3zYg" rowCount="4" tableName="dm_tran_version_store_space_usage">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9D0A5EeuCFNe08e3zYg" rowCount="1" tableName="dm_user_db_resource_governance">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9EEA5EeuCFNe08e3zYg" tableName="dm_xe_database_session_event_actions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9EUA5EeuCFNe08e3zYg" tableName="dm_xe_database_session_events">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9EkA5EeuCFNe08e3zYg" tableName="dm_xe_database_session_object_columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9E0A5EeuCFNe08e3zYg" tableName="dm_xe_database_session_targets">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9FEA5EeuCFNe08e3zYg" tableName="dm_xe_database_sessions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9FUA5EeuCFNe08e3zYg" rowCount="9100" tableName="dm_xe_map_values">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9FkA5EeuCFNe08e3zYg" rowCount="4396" tableName="dm_xe_object_columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9F0A5EeuCFNe08e3zYg" rowCount="1240" tableName="dm_xe_objects">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9GEA5EeuCFNe08e3zYg" rowCount="25" tableName="dm_xe_packages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9GUA5EeuCFNe08e3zYg" rowCount="1" tableName="dm_xtp_gc_queue_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9GkA5EeuCFNe08e3zYg" rowCount="1" tableName="dm_xtp_gc_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9G0A5EeuCFNe08e3zYg" tableName="dm_xtp_system_memory_consumers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9HEA5EeuCFNe08e3zYg" rowCount="2" tableName="dm_xtp_threads">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9HUA5EeuCFNe08e3zYg" tableName="dm_xtp_transaction_recent_rows">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9HkA5EeuCFNe08e3zYg" rowCount="1" tableName="dm_xtp_transaction_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9H0A5EeuCFNe08e3zYg" tableName="edge_constraint_clauses">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9IEA5EeuCFNe08e3zYg" tableName="edge_constraints">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9IUA5EeuCFNe08e3zYg" tableName="elastic_pool_resource_stats_ex">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9IkA5EeuCFNe08e3zYg" tableName="event_log_ex">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9I0A5EeuCFNe08e3zYg" rowCount="414" tableName="event_notification_event_types">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9JEA5EeuCFNe08e3zYg" tableName="event_notifications">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9JUA5EeuCFNe08e3zYg" tableName="events">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9JkA5EeuCFNe08e3zYg" tableName="extended_procedures">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9J0A5EeuCFNe08e3zYg" tableName="extended_properties">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9KEA5EeuCFNe08e3zYg" tableName="external_data_sources">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9KUA5EeuCFNe08e3zYg" tableName="external_file_formats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9KkA5EeuCFNe08e3zYg" tableName="external_job_streams">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9K0A5EeuCFNe08e3zYg" tableName="external_libraries">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9LEA5EeuCFNe08e3zYg" tableName="external_library_files">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9LUA5EeuCFNe08e3zYg" tableName="external_library_setup_errors">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9LkA5EeuCFNe08e3zYg" tableName="external_stream_columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9L0A5EeuCFNe08e3zYg" tableName="external_streaming_jobs">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9MEA5EeuCFNe08e3zYg" tableName="external_streams">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9MUA5EeuCFNe08e3zYg" tableName="external_tables">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9MkA5EeuCFNe08e3zYg" tableName="federated_table_columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9M0A5EeuCFNe08e3zYg" tableName="federation_distributions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9NEA5EeuCFNe08e3zYg" tableName="federation_member_distributions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9NUA5EeuCFNe08e3zYg" tableName="federation_members">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9NkA5EeuCFNe08e3zYg" tableName="federations">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9N0A5EeuCFNe08e3zYg" rowCount="1" tableName="filegroups">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9OEA5EeuCFNe08e3zYg" tableName="filetable_system_defined_objects">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9OUA5EeuCFNe08e3zYg" tableName="filetables">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9OkA5EeuCFNe08e3zYg" tableName="foreign_key_columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9O0A5EeuCFNe08e3zYg" tableName="foreign_keys">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9PEA5EeuCFNe08e3zYg" tableName="fulltext_catalogs">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9PUA5EeuCFNe08e3zYg" rowCount="140" tableName="fulltext_document_types">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9PkA5EeuCFNe08e3zYg" tableName="fulltext_index_catalog_usages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9P0A5EeuCFNe08e3zYg" tableName="fulltext_index_columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9QEA5EeuCFNe08e3zYg" tableName="fulltext_index_fragments">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9QUA5EeuCFNe08e3zYg" tableName="fulltext_indexes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9QkA5EeuCFNe08e3zYg" rowCount="53" tableName="fulltext_languages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9Q0A5EeuCFNe08e3zYg" tableName="fulltext_semantic_language_statistics_database">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9REA5EeuCFNe08e3zYg" tableName="fulltext_semantic_languages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9RUA5EeuCFNe08e3zYg" tableName="fulltext_stoplists">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9RkA5EeuCFNe08e3zYg" tableName="fulltext_stopwords">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9R0A5EeuCFNe08e3zYg" rowCount="15829" tableName="fulltext_system_stopwords">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9SEA5EeuCFNe08e3zYg" tableName="function_order_columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9SUA5EeuCFNe08e3zYg" tableName="hash_indexes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9SkA5EeuCFNe08e3zYg" rowCount="7" tableName="identity_columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9S0A5EeuCFNe08e3zYg" rowCount="374" tableName="index_columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9TEA5EeuCFNe08e3zYg" tableName="index_resumable_operations">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9TUA5EeuCFNe08e3zYg" rowCount="177" tableName="indexes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9TkA5EeuCFNe08e3zYg" tableName="internal_partitions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9T0A5EeuCFNe08e3zYg" rowCount="25" tableName="internal_tables">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9UEA5EeuCFNe08e3zYg" tableName="key_constraints">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9UUA5EeuCFNe08e3zYg" tableName="key_encryptions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9UkA5EeuCFNe08e3zYg" tableName="masked_columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9U0A5EeuCFNe08e3zYg" tableName="memory_optimized_tables_internal_attributes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9VEA5EeuCFNe08e3zYg" tableName="message_type_xml_schema_collection_usages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9VUA5EeuCFNe08e3zYg" rowCount="14521" tableName="messages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9VkA5EeuCFNe08e3zYg" tableName="module_assembly_usages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9V0A5EeuCFNe08e3zYg" tableName="numbered_procedure_parameters">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9WEA5EeuCFNe08e3zYg" tableName="numbered_procedures">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9WUA5EeuCFNe08e3zYg" rowCount="111" tableName="objects">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9WkA5EeuCFNe08e3zYg" tableName="openkeys">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9W0A5EeuCFNe08e3zYg" tableName="parameter_type_usages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9XEA5EeuCFNe08e3zYg" tableName="parameter_xml_schema_collection_usages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9XUA5EeuCFNe08e3zYg" tableName="parameters">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9XkA5EeuCFNe08e3zYg" tableName="partition_functions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9X0A5EeuCFNe08e3zYg" tableName="partition_parameters">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9YEA5EeuCFNe08e3zYg" tableName="partition_range_values">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9YUA5EeuCFNe08e3zYg" tableName="partition_schemes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9YkA5EeuCFNe08e3zYg" rowCount="177" tableName="partitions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9Y0A5EeuCFNe08e3zYg" tableName="periods">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9ZEA5EeuCFNe08e3zYg" tableName="plan_guides">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9ZUA5EeuCFNe08e3zYg" tableName="procedures">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9ZkA5EeuCFNe08e3zYg" rowCount="6" tableName="query_context_settings">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9Z0A5EeuCFNe08e3zYg" rowCount="39" tableName="query_store_plan">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9aEA5EeuCFNe08e3zYg" rowCount="39" tableName="query_store_query">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9aUA5EeuCFNe08e3zYg" tableName="query_store_query_hints">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9akA5EeuCFNe08e3zYg" rowCount="39" tableName="query_store_query_text">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9a0A5EeuCFNe08e3zYg" rowCount="108" tableName="query_store_runtime_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9bEA5EeuCFNe08e3zYg" rowCount="37" tableName="query_store_runtime_stats_interval">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9bUA5EeuCFNe08e3zYg" rowCount="150" tableName="query_store_wait_stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9bkA5EeuCFNe08e3zYg" tableName="registered_search_properties">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9b0A5EeuCFNe08e3zYg" tableName="registered_search_property_lists">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9cEA5EeuCFNe08e3zYg" tableName="remote_data_archive_databases">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9cUA5EeuCFNe08e3zYg" tableName="remote_data_archive_tables">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9ckA5EeuCFNe08e3zYg" tableName="remote_logins">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9c0A5EeuCFNe08e3zYg" tableName="remote_service_bindings">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9dEA5EeuCFNe08e3zYg" rowCount="1" tableName="resource_governor_configuration">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9dUA5EeuCFNe08e3zYg" tableName="resource_governor_external_resource_pool_affinity">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9dkA5EeuCFNe08e3zYg" rowCount="1" tableName="resource_governor_external_resource_pools">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9d0A5EeuCFNe08e3zYg" tableName="resource_governor_resource_pool_affinity">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9eEA5EeuCFNe08e3zYg" rowCount="2" tableName="resource_governor_resource_pools">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9eUA5EeuCFNe08e3zYg" rowCount="2" tableName="resource_governor_workload_groups">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9ekA5EeuCFNe08e3zYg" tableName="resource_stats_raw">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9e0A5EeuCFNe08e3zYg" tableName="resource_usage">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9fEA5EeuCFNe08e3zYg" rowCount="1" tableName="routes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9fUA5EeuCFNe08e3zYg" rowCount="13" tableName="schemas">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9fkA5EeuCFNe08e3zYg" rowCount="28" tableName="securable_classes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9f0A5EeuCFNe08e3zYg" tableName="security_policies">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9gEA5EeuCFNe08e3zYg" tableName="security_predicates">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9gUA5EeuCFNe08e3zYg" tableName="selective_xml_index_namespaces">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9gkA5EeuCFNe08e3zYg" tableName="selective_xml_index_paths">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9g0A5EeuCFNe08e3zYg" tableName="sensitivity_classifications">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9hEA5EeuCFNe08e3zYg" tableName="sequences">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9hUA5EeuCFNe08e3zYg" rowCount="1" tableName="server_memory_optimized_hybrid_buffer_pool_configuration">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9hkA5EeuCFNe08e3zYg" rowCount="3" tableName="server_principals">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9h0A5EeuCFNe08e3zYg" tableName="server_role_members">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9iEA5EeuCFNe08e3zYg" rowCount="11" tableName="service_contract_message_usages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9iUA5EeuCFNe08e3zYg" rowCount="2" tableName="service_contract_usages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9ikA5EeuCFNe08e3zYg" rowCount="6" tableName="service_contracts">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9i0A5EeuCFNe08e3zYg" rowCount="14" tableName="service_message_types">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9jEA5EeuCFNe08e3zYg" rowCount="3" tableName="service_queue_usages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9jUA5EeuCFNe08e3zYg" rowCount="3" tableName="service_queues">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9jkA5EeuCFNe08e3zYg" rowCount="3" tableName="services">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9j0A5EeuCFNe08e3zYg" tableName="spatial_index_tessellations">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9kEA5EeuCFNe08e3zYg" tableName="spatial_indexes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9kUA5EeuCFNe08e3zYg" rowCount="393" tableName="spatial_reference_systems">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9kkA5EeuCFNe08e3zYg" tableName="sql_dependencies">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9k0A5EeuCFNe08e3zYg" tableName="sql_expression_dependencies">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9lEA5EeuCFNe08e3zYg" rowCount="1" tableName="sql_modules">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9lUA5EeuCFNe08e3zYg" rowCount="230" tableName="stats">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9lkA5EeuCFNe08e3zYg" rowCount="439" tableName="stats_columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9l0A5EeuCFNe08e3zYg" tableName="symmetric_keys">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9mEA5EeuCFNe08e3zYg" tableName="synonyms">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9mUA5EeuCFNe08e3zYg" rowCount="1237" tableName="syscacheobjects">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9mkA5EeuCFNe08e3zYg" rowCount="117" tableName="syscharsets">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9m0A5EeuCFNe08e3zYg" rowCount="1206" tableName="syscolumns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9nEA5EeuCFNe08e3zYg" rowCount="1" tableName="syscomments">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9nUA5EeuCFNe08e3zYg" rowCount="90" tableName="sysconfigures">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9nkA5EeuCFNe08e3zYg" tableName="sysconstraints">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9n0A5EeuCFNe08e3zYg" tableName="syscscontainers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9oEA5EeuCFNe08e3zYg" rowCount="91" tableName="syscurconfigs">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9oUA5EeuCFNe08e3zYg" tableName="syscursorcolumns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9okA5EeuCFNe08e3zYg" tableName="syscursorrefs">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9o0A5EeuCFNe08e3zYg" tableName="syscursors">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9pEA5EeuCFNe08e3zYg" tableName="syscursortables">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9pUA5EeuCFNe08e3zYg" rowCount="2" tableName="sysdatabases">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9pkA5EeuCFNe08e3zYg" tableName="sysdepends">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9p0A5EeuCFNe08e3zYg" tableName="sysdevices">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9qEA5EeuCFNe08e3zYg" rowCount="1" tableName="sysfilegroups">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9qUA5EeuCFNe08e3zYg" rowCount="2" tableName="sysfiles">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9qkA5EeuCFNe08e3zYg" tableName="sysforeignkeys">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9q0A5EeuCFNe08e3zYg" tableName="sysfulltextcatalogs">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9rEA5EeuCFNe08e3zYg" rowCount="244" tableName="sysindexes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9rUA5EeuCFNe08e3zYg" rowCount="374" tableName="sysindexkeys">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9rkA5EeuCFNe08e3zYg" rowCount="34" tableName="syslanguages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9r0A5EeuCFNe08e3zYg" rowCount="20" tableName="syslockinfo">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9sEA5EeuCFNe08e3zYg" rowCount="1" tableName="sysmembers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9sUA5EeuCFNe08e3zYg" rowCount="14521" tableName="sysmessages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9skA5EeuCFNe08e3zYg" rowCount="111" tableName="sysobjects">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9s0A5EeuCFNe08e3zYg" rowCount="1" tableName="sysoledbusers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9tEA5EeuCFNe08e3zYg" tableName="sysopentapes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9tUA5EeuCFNe08e3zYg" rowCount="3550" tableName="sysperfinfo">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9tkA5EeuCFNe08e3zYg" rowCount="207" tableName="syspermissions">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9t0A5EeuCFNe08e3zYg" rowCount="20" tableName="sysprocesses">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9uEA5EeuCFNe08e3zYg" rowCount="206" tableName="sysprotects">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9uUA5EeuCFNe08e3zYg" tableName="sysreferences">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9ukA5EeuCFNe08e3zYg" rowCount="1" tableName="sysservers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9u0A5EeuCFNe08e3zYg" rowCount="8306" tableName="system_columns">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9vEA5EeuCFNe08e3zYg" rowCount="1021" tableName="system_objects">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9vUA5EeuCFNe08e3zYg" rowCount="1398" tableName="system_parameters">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9vkA5EeuCFNe08e3zYg" rowCount="894" tableName="system_sql_modules">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9v0A5EeuCFNe08e3zYg" rowCount="445" tableName="system_views">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9wEA5EeuCFNe08e3zYg" rowCount="34" tableName="systypes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9wUA5EeuCFNe08e3zYg" rowCount="14" tableName="sysusers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9wkA5EeuCFNe08e3zYg" tableName="table_types">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9w0A5EeuCFNe08e3zYg" rowCount="10" tableName="tables">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9xEA5EeuCFNe08e3zYg" rowCount="140" tableName="time_zone_info">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9xUA5EeuCFNe08e3zYg" tableName="transmission_queue">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9xkA5EeuCFNe08e3zYg" rowCount="294" tableName="trigger_event_types">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9x0A5EeuCFNe08e3zYg" tableName="trigger_events">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9yEA5EeuCFNe08e3zYg" tableName="triggers">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9yUA5EeuCFNe08e3zYg" tableName="trusted_assemblies">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9ykA5EeuCFNe08e3zYg" rowCount="3" tableName="type_assembly_usages">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9y0A5EeuCFNe08e3zYg" rowCount="34" tableName="types">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9zEA5EeuCFNe08e3zYg" rowCount="1" tableName="user_token">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9zUA5EeuCFNe08e3zYg" rowCount="1" tableName="views">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9zkA5EeuCFNe08e3zYg" tableName="xml_indexes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD9z0A5EeuCFNe08e3zYg" rowCount="16" tableName="xml_schema_attributes">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD90EA5EeuCFNe08e3zYg" rowCount="1" tableName="xml_schema_collections">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD90UA5EeuCFNe08e3zYg" rowCount="19" tableName="xml_schema_component_placements">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD90kA5EeuCFNe08e3zYg" rowCount="100" tableName="xml_schema_components">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD900A5EeuCFNe08e3zYg" tableName="xml_schema_elements">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD91EA5EeuCFNe08e3zYg" rowCount="112" tableName="xml_schema_facets">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD91UA5EeuCFNe08e3zYg" rowCount="1" tableName="xml_schema_model_groups">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD91kA5EeuCFNe08e3zYg" rowCount="3" tableName="xml_schema_namespaces">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD910A5EeuCFNe08e3zYg" rowCount="82" tableName="xml_schema_types">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD92EA5EeuCFNe08e3zYg" tableName="xml_schema_wildcard_namespaces">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+            <viewIndicators xmi:id="_cpD92UA5EeuCFNe08e3zYg" rowCount="1" tableName="xml_schema_wildcards">
+              <indicatorDefinition href="../../TDQ_Libraries/Indicators/System Indicators/Overview/View_Overview_0.1.definition#_lNIE0MbNEd2d_JPxxDRSfQ"/>
+            </viewIndicators>
+          </schemaIndicators>
+        </catalogIndicators>
+      </indicators>
+    </results>
+    <parameters xmi:id="_9zAOGUA4EeuCFNe08e3zYg" dataFilter="_9zAOGkA4EeuCFNe08e3zYg" analysisType="Connection Analysis"/>
+  </dataquality.analysis:Analysis>
+  <dataquality.domain:Domain xmi:id="_9zAOGkA4EeuCFNe08e3zYg" name="Analysis Data Filter" patterns="_9zAOG0A4EeuCFNe08e3zYg">
+    <ownedElement xsi:type="dataquality.domain.pattern:Pattern" xmi:id="_9zAOG0A4EeuCFNe08e3zYg" name="Table Pattern">
+      <components xsi:type="dataquality.domain.pattern:RegularExpression" xmi:id="_9zAOHEA4EeuCFNe08e3zYg">
+        <expression xmi:id="_9zAOHUA4EeuCFNe08e3zYg" body="covid_19_open_data_US"/>
+      </components>
+    </ownedElement>
+  </dataquality.domain:Domain>
+</xmi:XMI>
